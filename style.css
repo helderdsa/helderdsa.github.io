@@ -7,7 +7,6 @@
     position: fixed;
     width: 100%;
     right: 0;
-    margin-bottom: 50px;
 
 }
 nav a{
@@ -38,6 +37,20 @@ nav a:active {
   box-shadow: 0 16px 8px -6px #F80040;
 }
 /*=======================================================================================================================================*/
+.hero{
+    padding-top: 86px;
+    display: flex;
+    justify-content: center;
+    
+}
+.herotext{
+    padding-top: 120px;
+}
+.herotext h1{
+    font-size: 50px;
+    line-height: 16px;
+}
+/*=======================================================================================================================================*/
 header{
     padding-top: 86px;
 }
@@ -45,4 +58,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #150941;
     color: white;
+}
+*{
+    text-transform: uppercase;
 }
